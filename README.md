@@ -7,6 +7,7 @@ composite materials
 
 1. app.py приложение
 2. COMPO_model.pkl бекап модели
-2. templates папка с шаблоном html страницы
+3. templates папка с шаблоном html страницы
 4. datasets папка с 2-мя датасетами композитов
-4. README.md
+5. result папка с дампом очищенного датасета
+6. README.md
