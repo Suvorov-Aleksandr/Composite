@@ -11,3 +11,4 @@ composite materials
 4. datasets папка с 2-мя датасетами композитов
 5. result папка с дампом очищенного датасета
 6. README.md
+7. DS_SuvorovAA.ipynb тетрадка
