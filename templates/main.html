@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Прогноз отношения матрицы-наполнитель </title>
+    </head>
+    <body>
+        <form name="form", method="POST", style="text-align: center;">
+            <br>
+            Плотность, кг/м3: <input type="number" name="density", placeholder="Введите значение" required>
+            <br><br>
+            модуль упругости, ГПа: <input type="number" name="modulus_elasticity", placeholder="Введите значение" required>
+            <br><br>
+            Количество отвердителя, м.%: <input type="number" name="amount_hardener", placeholder="Введите значение" required>
+            <br><br>
+            Содержание эпоксидных групп, %_2: <input type="number" name="content_epoxy_groups", placeholder="Введите значение" required>
+            <br><br>
+            Температура вспышки, С_2: <input type="number" name="flash_point", placeholder="Введите значение" required>
+            <br><br>
+            Поверхностная плотность, г/м2: <input type="number" name="surface_density", placeholder="Введите значение" required>
+            <br><br>
+            Потребление смолы, г/м2: <input type="number" name="resin_consumption", placeholder="Введите значение" required>
+            <br><br>
+            Угол нашивки: <input type="number" name="stripe_angle", placeholder="Введите значение" required>
+            <br><br>
+            Шаг нашивки: <input type="number" name="stripe_pitch", placeholder="Введите значение" required>
+            <br><br>
+            Плотность нашивки: <input type="number" name="stripe_density", placeholder="Введите значение" required>
+            <br><br>
+            Модуль упругости при растяжении, ГПа: <input type="number" name="tensile_modulus_elasticity", placeholder="Введите значение" required>
+            <br><br>
+            Прочность при растяжении, МПа: <input type="number" name="tensile_strength", placeholder="Введите значение" required>
+            <br><br>
+            <button value="Submit">Предсказать</button>
+        </form>
+        <p style="text-align: center;">{{ output }}</p>
+    </body>
+</html>
